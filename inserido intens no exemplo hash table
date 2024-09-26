@@ -1,0 +1,9 @@
+const tabela = {
+fruta1: "Banana",
+fruta2: "Abacaxi",
+fruta3: "Maracujá"
+}
+tabela["fruta4"] = "Maçã"
+console.log(tabela.fruta3)
+console.log(tabela["fruta2"])
+console.log(tabela.fruta4)
