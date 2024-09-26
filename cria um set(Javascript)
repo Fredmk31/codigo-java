@@ -1,0 +1,8 @@
+// criando um set
+
+let mySet = new Set([1, 2, 3, 4]);
+mySet.add(5); // adiciona 5
+mySet.delete(3); // deleta o 3
+console.log(mySet.has(2)); // true
+console.log(mySet.size); // 4
+mySet.clear();
